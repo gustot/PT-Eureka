@@ -15,7 +15,7 @@ function sendMail (){
     var params = {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
-        message: document.getElementById("massage").value,
+        message: document.getElementById("message").value,
     };
 
 
@@ -27,7 +27,7 @@ emailjs
 .then ((res) =>{
         document.getElementById("name").value = "";
         document.getElementById("email").value = "";
-        document.getElementById("massage").value = "";
+        document.getElementById("message").value = "";
         alert("your message sent succes");
     })
     .catch((err) => console.log(err));
