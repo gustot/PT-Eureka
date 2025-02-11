@@ -28,6 +28,7 @@ emailjs
         document.getElementById("name").value = "";
         document.getElementById("email").value = "";
         document.getElementById("message").value = "";
+        console.log(res);
         alert("your message sent succes");
     })
     .catch((err) => console.log(err));

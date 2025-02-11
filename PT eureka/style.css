@@ -99,7 +99,7 @@ svg.feather.feather-menu {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url('../img/foto1.png');
+  background-image: url('img/foto1.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -207,7 +207,7 @@ svg.feather.feather-menu {
 
 .about .row .content p {
   margin-bottom: 0.8rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight:normal;
   line-height: 1.6;
 }
